@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Scokets</string>
+    <string name="server_list">INGRESE UN NUEVO SERVER</string>
+    <string name="title_add_sockets_server">NUEVO SERVER SOCKETS</string>
+</resources>

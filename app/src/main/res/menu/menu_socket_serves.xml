@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/conn__server"
+        android:id="@+id/opc_conectar_socktes"
+        android:title="CONNECTAR"
+        >
+    </item>
+    <item
+        android:icon="@drawable/delete_registro"
+        android:id="@+id/opc_elimar_registro"
+        android:title="ELIMINAR"
+        >
+    </item>
+</menu>

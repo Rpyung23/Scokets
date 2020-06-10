@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:gravity="center_vertical"
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content">
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:src="@drawable/socktes_"
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+    </ImageView>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textview_name_server_recycler"
+            android:text="Nombre"
+            android:textSize="17sp"
+            android:textColor="@color/primaryText"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/textview_ip_server_recycler"
+            android:text="Ip"
+            android:textSize="17sp"
+            android:textColor="@color/primaryText"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/textview_port_ser_recycler"
+            android:text="Port"
+            android:textSize="17sp"
+            android:textColor="@color/primaryText"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+</LinearLayout>
+    <View
+        android:background="@color/dividerColor"
+        android:layout_width="wrap_content"
+        android:layout_height="3dp">
+    </View>
+</LinearLayout>
